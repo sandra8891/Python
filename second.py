@@ -38,7 +38,7 @@
 # b=False
 # print(type(a),type(b))
 
-
+# case
 # a=20
 # b=40
 # c=a+b
