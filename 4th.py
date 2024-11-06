@@ -40,6 +40,8 @@
 
 
 
+
+
 # convert to lowercase
 # a=(input("enter a word:"))
 # b=a.lower()
@@ -77,8 +79,10 @@
 
 # remove whitespace
 # a=(input("enter a word:"))
-# c=a.strip()
+# c=a.split()
 # print(c)
+# d="".join(c)
+# print(d)
 
 # replace a word
 # a=(input("enter a string:"))
@@ -95,4 +99,35 @@
 
 
 # join words
-# a=(input("enter a word1:"))
+# a=(input("enter a word:"))
+# # # b=(input("enter a split:"))
+# c=a.split()
+# print(c)
+# d=" ".join(c)
+# print(d)
+
+
+# string contains a substring
+# a=(input("enter a string:"))
+# b=a.split()
+# print(b)
+# c=(input("enter a substring:"))
+# for i in b:
+#     if i==c:
+#         print("word exist")
+#         break
+# else:
+#     print("dose not exit")
+
+# Alphanumeric
+# a=(input("enter a string:"))
+# b=a.isalnum()
+# print(b)
+
+# Numeric
+# a=(input("enter a string:"))
+# b=a.isnumeric()
+# print(b)
+
+# Remove all digits from a string
+
