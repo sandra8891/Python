@@ -130,4 +130,12 @@
 # print(b)
 
 # Remove all digits from a string
-
+# a=input("enter a string")
+# b=""
+# for i in a:
+#     if i.isdigit():
+#         pass
+    
+#     else:
+#         b=b+i
+# print(b)
