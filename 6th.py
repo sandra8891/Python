@@ -17,17 +17,17 @@
 # print(b)
 
 # palindrome
-a=int(input("enter a number"))
-d=a
-b=0
-while a>0:
-    c=a%10
-    b=(b*10)+c
-    a=a//10
-if b==d:
-    print("palindrome")
-else:
-    print("not a palindrome")
+# a=int(input("enter a number"))
+# d=a
+# b=0
+# while a>0:
+#     c=a%10
+#     b=(b*10)+c
+#     a=a//10
+# if b==d:
+#     print("palindrome")
+# else:
+#     print("not a palindrome")
     
     
     
