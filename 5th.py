@@ -89,12 +89,16 @@
 #             print(a+j,end=" ")
 #     print()
 
-n=65
-a=67
-for i in range(3):
-    for j in range(3):
-        print(chr(n+j),end=" ")
-    print()
-    for j in range(3):
-            print(chr(a-j),end=" ")
-    print()
+# A B C
+# C B A
+# A B C
+# C B A
+# n=65
+# a=67
+# for i in range(3):
+#     for j in range(3):
+#         print(chr(n+j),end=" ")
+#     print()
+#     for j in range(3):
+#             print(chr(a-j),end=" ")
+#     print()
