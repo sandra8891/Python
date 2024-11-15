@@ -30,6 +30,34 @@
 # a[1:3]=["cherry","pineapple"]
 # print(a)
 
-a=[1,2,"apple","orange"]
-a[1:3]=["cherry","pineapple","jackfruit"]
-print(a)
+# a=[1,2,"apple","orange"]
+# a[1:3]=["cherry","pineapple","jackfruit"]
+# print(a)
+
+
+# pattern using list
+# a=[7,4,3,6,4,3,6,7]
+# for i in a:
+#     print(i*"*")
+
+# a=[4,4,1,4,1,2,4,3]
+# for i in a:
+#     print(i*"*")
+
+# append
+# a=["apple","orange","grape"]
+# a.append("melon")
+# print(a)
+
+# # insert
+# a=["apple","orange","grape"]
+# a.insert(1,"mango")
+# print(a)
+
+# extend
+# a=["apple","mango","orange"]
+# b=["hat","cat","mat"]
+# a.extend(b)
+# print(a)
+
+
