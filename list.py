@@ -44,7 +44,7 @@
 # for i in a:
 #     print(i*"*")
 
-# append
+#  append
 # a=["apple","orange","grape"]
 # a.append("melon")
 # print(a)
