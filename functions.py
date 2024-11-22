@@ -72,20 +72,19 @@
 # print(add(5,4))
 
 # write a prgm that accepts a list using function and returns two list one containing odd and one containing even numbers
-list=[1,2,3,4,5,6,7,8,9,10]
-even_lis=[]
-odd_lis=[]
-def number(list):
- 
-    for i in list:
-        if ( i % 2==0):
-            even_lis.append(i)      
-        else:
-            odd_lis.append(i)
-    return even_lis,odd_lis
-number(list) 
-print("even:",even_lis)
-print("odd:",odd_lis) 
+# list=[1,2,3,4,5,6,7,8,9,10]
+# even_lis=[]
+# odd_lis=[]
+# def number(list):
+#     for i in list:
+#         if ( i % 2==0):
+#             even_lis.append(i)      
+#         else:
+#             odd_lis.append(i)
+#     return even_lis,odd_lis
+# number(list) 
+# print("even:",even_lis)
+# print("odd:",odd_lis) 
 
         
     
