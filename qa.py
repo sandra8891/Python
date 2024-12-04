@@ -53,15 +53,10 @@ class Library:
         self.books=[]
     def add_book(self,book):
         self.books.append(book)
-    def search_book(self,title):
-        for book in self.books:
-            if book.title==title:
-               return book
-        return None
     def list_book(self):
         if self.books:
-            for book in self.books:
-                print(book.title,book.author,book.copies_a)
+            for i in self.books:
+                print(i.title,i.author,i.copies_a)
         else:
             print("no books ")
 obj1=Library()
